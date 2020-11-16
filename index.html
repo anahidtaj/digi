@@ -1,0 +1,99 @@
+<!--ctrl + alt + l : مرتب کردن کدهای انتخاب شده-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+ فروشگاه اینترنتی دیجیکالا
+    </title>
+</head>
+<style>
+    @font-face {
+        font-family: 'yekan';
+        src:  url('fonts/yekan.ttf') format('truetype'),
+        url('fonts/yekan.eot?#iefix') format('embedded-opentype');
+    }
+   div,span,p,a,li,ul{text-align: right;direction: rtl}
+    /*راست چین کردن تمام تگها*/
+    a{text-decoration: none}
+    /*حذف خط آندرلاین*/
+    .yekan{font-family: yekan}
+    /*تعریف کلاس فونت جهت اختصاص به یک گروه از نوشته ها*/
+    .fontsm{font-size: 10.3pt}
+    .fontmd{font-size: 11.3pt}
+    .fontlg{font-size: 12.3pt}
+
+</style>
+<body style="margin: 0;">
+<!--/*برای آنکه صفحه مارجین نداشته باشد*/-->
+<header>
+<div id="header" style="width: 1200px;height: 100px;margin:0 auto;padding-top: 10px">
+    <!--/*بالای کادر را فاصله میدهیم padding*/-->
+<div id="header-right" style= "width: 720px; float: right; height: 100px;" >
+    <!--/*float برای آنکه مقدار ما راست چین شود*/-->
+<div id="header_right_top" style="height: 40px">
+    <span style="width: 20px;height: 20px;background: url(images/lock.png); display: block;float: right" ></span>
+    <!--/*تگ های از نوع اینلاین رو به بلاک تبدیل میکند*/-->
+    <a class="yekan fontsm"  href="index.html" style="float: right;margin-right: 10px; ">
+        فروشگاه اینترنتی دیجیکالا وارد شوید
+    </a>
+    <span style="width: 20px;height: 20px;background: url(images/login.png); display: block;float:right" >;</span>
+    <a class="yekan fontsm" href="index.html" style="float:right;margin-right: 10px">
+        ثبت نام کنید
+    </a>
+</div>
+<div id="header_right_button" style="height: 50px">
+    <div id="basket_top" style="height: 40px;width: 190px;float: right">
+        <div id="basket_top_right" style="width: 54px;height: 100%;background: #18b745 url(images/shopping.png)no-repeat center; float: right"></div>
+        <!--/*تصویر از تکراری خارج میشود no repeat*/-->
+        <div id="basket_top_left" style="width: 96px;height: 100%;background: #0f8d2f; float: right;padding: 0 20px;line-height: 34px">
+            <span class="yekan fontsm"; href="index.html"style="color: white;">سبد خرید</span>
+            <span style="width:25px;height: 25px;background: rgba(180,229,146,0.22) ;text-align:
+            center;display: block; float: left;margin-top: 7px; border-radius: 100%;line-height: 25px">0</span>
+        </div>
+
+    </div>
+    <div id="search_top" style="width: 480px;height: 40%; float: right ;margin-right: 20px;position: relative">
+        <input class="yekan" type="text" style="width: 480px;height:28px;margin-top: 3px;border:3px solid #eee;padding-right: 10px;color:rgba(145,145,145,0.68) "placeholder="محصول مورد نظر را وارد کنید"/>
+        <!--/*داخل کادر متن مینویسد*/-->
+         <span style="width: 42px;height: 35px;background:url(images/loupe.png)no-repeat center #a4a1a7 ;display: block;position: absolute;left: -15px;top:3px "></span>
+
+    </div>
+</div>
+</div>
+<div id="header-left" style="float: left;">
+    <img src="images/download.png">
+</div>
+</div>
+</div>
+</header>
+<style>
+    nav{
+        box-shadow:1px 3px 6px rgba(184,184,184,0.68);
+        -webkit-box-shadow: box-shadow:1px 3px 6px rgba(184,184,184,0.68);
+        -moz-box-shadow: box-shadow:1px 3px 6px rgba(184,184,184,0.68);
+    }
+    li{list-style: none}
+    #menu_top > ul > li{float: right;}
+    #menu_top > ul > li > a {padding: 0 10px;}
+</style>
+
+
+<nav style="width: 100%;height: 40px;background:#f7f0fa;box-shadow:1px 3px 6px rgba(184,184,184,0.68) ">
+    <div id="menu_top" style="width: 1200px;height: 40px ;margin: auto";>
+        <ul>
+            <li>
+                <a class="yekan">
+                    کالاي ديجيتال
+                </a>
+            </li>
+            <li>
+                <a class="yekan">
+                    لوازم خانگي
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+</body>
+</html>
